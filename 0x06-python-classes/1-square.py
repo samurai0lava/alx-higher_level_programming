@@ -1,7 +1,4 @@
 class Square:
-    # None attribates
-    
-    
-    def init(self, size):
-        # Initialize the size attribute of the Square object
+    # None attribate
+    def __init__(self, size):
         self.__size = size
